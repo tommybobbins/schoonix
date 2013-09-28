@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+     --architectures i386 \
+     --linux-flavours 686-pae \
+     --binary-images hdd \
+     --apt-recommends false \
+     --archive-areas "main contrib non-free" \
+     --mirror-bootstrap http://packagecache:3142/ftp.uk.debian.org/debian/ \
+     --mirror-binary http://packagecache:3142/ftp.uk.debian.org/debian/ \
+    --bootappend-live "boot=live config hostname=ardento username=ardu persistence locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London quiet noeject toram live-config.user-default-groups=audio,cdrom,dip,floppy,video,plugdev,netdev,powerdev,fuse,dialout" \
+	"${@}"

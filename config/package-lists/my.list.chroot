@@ -1,0 +1,17 @@
+task-lxde-desktop arduino
+acpid
+openssh-client
+openssh-server
+chromium-browser
+evince
+dbus-x11
+firmware-atheros
+firmware-brcm80211
+firmware-iwlwifi
+wpasupplicant
+firmware-realtek
+firmware-ipw2x00
+firmware-linux-nonfree
+wireless-tools
+scratch
+python

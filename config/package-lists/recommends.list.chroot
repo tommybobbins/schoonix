@@ -1,0 +1,9 @@
+live-tools user-setup sudo eject live-config-sysvinit
+pciutils
+wget
+live-config-doc
+console-tools
+iproute
+keyboard-configuration
+locales
+locales-all
