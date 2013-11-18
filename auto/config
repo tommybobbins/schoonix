@@ -5,7 +5,7 @@ set -e
 lb config noauto \
      --architectures i386 \
      --linux-flavours 686-pae \
-     --binary-images iso-hybrid \
+     --binary-images hdd \
      --apt-recommends false \
      --archive-areas "main contrib non-free" \
      --mirror-bootstrap http://packagecache:3142/ftp.uk.debian.org/debian/ \
