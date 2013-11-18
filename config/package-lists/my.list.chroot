@@ -15,6 +15,7 @@ firmware-linux-nonfree
 wireless-tools
 scratch
 python
+python3
 audacity
 pulseaudio-module-x11
 pulseaudio-utils
